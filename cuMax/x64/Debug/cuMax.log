@@ -1,0 +1,13 @@
+﻿  Compiling CUDA source file cudaMax.cu...
+  
+  D:\Projects\cuMax\cuMax>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc141.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\cudaMax.cu.obj "D:\Projects\cuMax\cuMax\cudaMax.cu" 
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+D:/Projects/cuMax/cuMax/cudaMax.cu(152): warning : variable "maxIdx" was set but never used
+  
+D:/Projects/cuMax/cuMax/cudaMax.cu(166): warning : variable "aa" was declared but never referenced
+  
+D:/Projects/cuMax/cuMax/cudaMax.cu(185): warning : variable "ab" was declared but never referenced
+  
+  cudaMax.cu
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+  cuMax.vcxproj -> D:\Projects\cuMax\x64\Debug\cuMax.exe
